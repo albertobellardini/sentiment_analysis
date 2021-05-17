@@ -13,6 +13,7 @@ Finally on the summaries we run sentiment analysis and we look at the distributi
 The following part of the code
 
 search_url = "https://www.google.com/search?q=yahoo+finance+{}&tbm=nws".format(ticker)
+
 r = requests.get(search_url)
 
 had log-in + cookies problems with Google. A work around by using the pygooglenews library has been implemented.
