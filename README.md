@@ -6,7 +6,7 @@ https://github.com/nicknochnack/Stock-and-Crypto-News-ScrapingSummarizationSenti
 
 https://www.youtube.com/watch?v=YbKnsJQKazA 
 
-In the notebook recent articles about Bitcoin are first extracted from Yahoo Finance by using BeautifoulSoup. 
+In the notebook, recent articles about Bitcoin are first extracted from Yahoo Finance by using BeautifulSoup. 
 With the help of Hugging Face transformers the articles are summarised. 
 Finally on the summaries we run sentiment analysis and we look at the distribution of the sentiment.
 
